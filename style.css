@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Libertinus+Keyboard&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sirivennela&display=swap');
+body{
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+background-image: url(images/header.jpg);
+}
+
+/*Website links except the nav */
+a:link{
+  color:black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+a:active{
+  color: red;
+}
+header{
+  text-align: center;
+  color: black;
+  text-shadow: .2px .2px .2px black;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 2px;
+  margin: 0;
+}
+
+
+/* Navigation */
+nav{
+  background: #1f2b32;
+  border-top: black 3px solid;
+  border-bottom: black 1px solid ;
+  padding: 5px;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav a{
+  text-decoration: none;
+}
+nav li{
+  display: inline;
+  padding: 5px;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: black;
+}
+nav a:active{
+  color: red;
+}
+.home-hero{
+  background-image: url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 10px 10px 30px;
+  background-color:#1f2b32 ;
+}
+blockquote{
+  background-color: #eeeeee;
+  border-left: 10px solid grey;
+  padding: 30px;
+  border-radius: 25px;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #1f2b32;
+  border-radius: 25px;
+}
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+/*footer */
+footer {
+  background-color: #1f2b32;
+  padding: 40px 0;
+  color: white;
+  text-align: center;
+}
+
+footer .fa {
+  font-size: 40px;
+  margin-bottom: 10px;
+
+
+/*css without a media query--applies to all sizes unless overridden*/
+h1{
+  font-size: 3em;
+}
+/* CSS For Tablets */
+@media only screen and (max-width: 1024px){
+  h1{
+    font-size: 2em;
+  }
+}
+
+
+/* CSS For Smartphones */
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 1.5em;
+  }
+}
